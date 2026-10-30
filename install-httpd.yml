@@ -1,6 +1,6 @@
 ---
 - name: Install and start Apache web server
-  hosts: node1.example.com
+  hosts: node1.bvk.com
   become: true
   tasks:
     - name: Install Apache
